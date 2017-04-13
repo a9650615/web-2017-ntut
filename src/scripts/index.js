@@ -1,6 +1,6 @@
 'use strict'
 import 'babel-polyfill'
-import '../styles/index.scss'
+import '../styles/index.css'
 
 if (module.hot) {
   module.hot.accept()

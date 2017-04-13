@@ -3,8 +3,8 @@
 const Path = require('path')
 const Webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const ExtractSASS = new ExtractTextPlugin('styles/bundle.css')
+// const ExtractTextPlugin = require('extract-text-webpack-plugin')
+// const ExtractSASS = new ExtractTextPlugin('styles/bundle.css')
 
 module.exports = (options) => {
   let webpackConfig = {
@@ -58,22 +58,21 @@ module.exports = (options) => {
         compressor: {
           warnings: false
         }
-      }),
-      ExtractSASS
+      })
     )
 
-    webpackConfig.module.loaders.push({
-      test: /\.scss$/i,
-      loader: ExtractSASS.extract(['css', 'sass'])
-    })
+    // webpackConfig.module.loaders.push({
+    //   test: /\.scss$/i,
+    //   loader: ExtractSASS.extract(['css', 'sass'])
+    // })
   } else {
     webpackConfig.plugins.push(
       new Webpack.HotModuleReplacementPlugin()
     )
 
     webpackConfig.module.loaders.push({
-      test: /\.scss$/i,
-      loaders: ['style', 'css', 'sass']
+      test: /\.css$/i,
+      loaders: ['style', 'css']
     }, {
       test: /\.js$/,
       loader: 'eslint',
