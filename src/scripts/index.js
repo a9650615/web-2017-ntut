@@ -1,6 +1,6 @@
 'use strict'
 import 'babel-polyfill'
-import './example'
+import './header'
 import '../styles/index.css'
 
 if (module.hot) {
@@ -14,6 +14,8 @@ $(document).ready(() => {
   $('#fullpage').fullpage({
     css3: true,
     easingcss3: 'ease',
+    anchors: ['firstPage', 'secendPage', '3rdPage', '4rdPage'],
+    menu: '#myMenu',
     // events
     onLeave: (index, nextIndex, direction) => {},
     afterLoad: (anchorLink, index) => {},

@@ -1,0 +1,51 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.round {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.grandama {
+    background: url('../../res/grandma.jpeg');
+    background-size: cover;
+    width: 350px;
+    max-width: 100%;
+    height: 350px;
+}
+
+#header-white-background {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.header-main {
+    margin: 10em 0;
+}
+
+.example-clover{
+    /*background: rgba( 255, 255, 255, 0.5);*/
+    background: url('../../res/DSC01383.JPG');
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.example-header{
+    /*background: rgba( 255, 255, 255, 0.5);*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url('../../res/DSC01383.JPG');
+    z-index: 0;
+    filter: blur(2px);
+}
+
+.header-main {
+    z-index: 1;
+    position: relative;
+}

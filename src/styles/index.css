@@ -1,0 +1,20 @@
+.section {
+    padding: 0px;
+}
+
+#myMenu{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    padding: 0 20px;
+}
+
+#myMenu li {
+    display: inline-block;
+    padding: 3px 10px;
+    line-height: 3rem;
+}
+
+a {
+    color: #010101 !important;
+}
