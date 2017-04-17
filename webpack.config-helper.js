@@ -38,11 +38,34 @@ module.exports = (options) => {
         }
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
-        loaders: [
-          'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
-          'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}, mozjpeg: {quality: 65}}'
-        ]
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader',
+        options: {
+          query: {
+            name: '[path][name].[ext]'
+          }
+        }
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'image-webpack-loader',
+        options: {
+          query: {
+            mozjpeg: {
+              progressive: true
+            },
+            gifsicle: {
+              interlaced: false
+            },
+            optipng: {
+              optimizationLevel: 4
+            },
+            pngquant: {
+              quality: '75-90',
+              speed: 3
+            }
+          }
+        }
       },
       {
         test: /\.html$/,
