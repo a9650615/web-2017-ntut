@@ -5,3 +5,4 @@ dist
 node_modules
 post_recieve.php
 autoUpdate.js
+.vscode

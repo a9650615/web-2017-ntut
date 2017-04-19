@@ -2,17 +2,24 @@
     padding: 0px;
 }
 
-#myMenu{
-    z-index: 10;
-    position: absolute;
-    top: 0;
-    padding: 0 20px;
+#myMenu, .menu {
+    position: relative;
+    z-index: 2;
 }
 
-#myMenu li {
+#myMenu li, .menu li {
     display: inline-block;
-    padding: 3px 10px;
     line-height: 3rem;
+}
+
+.menu.fix {
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 a {

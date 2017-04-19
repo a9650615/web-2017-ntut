@@ -1,6 +1,6 @@
 'use strict'
 import 'babel-polyfill'
-import './header'
+import {fixNavBar} from './header'
 import '../styles/index.css'
 
 if (module.hot) {
@@ -17,7 +17,9 @@ $(document).ready(() => {
     anchors: ['firstPage', 'secendPage', '3rdPage', '4rdPage'],
     menu: '#myMenu',
     // events
-    onLeave: (index, nextIndex, direction) => {},
+    onLeave: (index, nextIndex, direction) => {
+      fixNavBar(index, nextIndex, direction)
+    },
     afterLoad: (anchorLink, index) => {},
     afterRender: () => {},
     afterResize: () => {},
