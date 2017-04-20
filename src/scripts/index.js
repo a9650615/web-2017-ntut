@@ -19,9 +19,9 @@ $(document).ready(() => {
     menu: '#myMenu',
     // events
     onLeave: (index, nextIndex, direction) => {
-      fixNavBar(index, nextIndex, direction)
+      // fixNavBar(index, nextIndex, direction)
     },
-    afterLoad: (anchorLink, index) => {},
+    afterLoad: (anchorLink, index) => { fixNavBar(index, -1, -1) },
     afterRender: () => {},
     afterResize: () => {},
     afterResponsive: (isResponsive) => {},

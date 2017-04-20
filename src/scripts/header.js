@@ -6,11 +6,10 @@ $('#header').html(header)
 
 let fixNavBar = (index, nextIndex, direction) => {
   // console.log(index, nextIndex, direction)
-  if (index === 1 && nextIndex === 2) {
-    $('#menu2').show()
-  }
-  if (nextIndex === 1) {
+  if (index === 1) {
     $('#menu2').hide()
+  } else {
+    $('#menu2').show()
   }
 }
 
