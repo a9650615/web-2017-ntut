@@ -1,6 +1,7 @@
 'use strict'
 import 'babel-polyfill'
 import {fixNavBar} from './header'
+import './section2'
 import '../styles/index.css'
 
 if (module.hot) {
