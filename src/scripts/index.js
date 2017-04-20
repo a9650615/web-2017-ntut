@@ -1,6 +1,7 @@
 'use strict'
 import 'babel-polyfill'
 import './header'
+import './section1'
 import './section2'
 import '../styles/index.css'
 
