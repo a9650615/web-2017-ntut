@@ -3,6 +3,8 @@ import 'babel-polyfill'
 import './header'
 import './section1'
 import './section2'
+import './section3'
+import './section4'
 import '../styles/index.css'
 
 if (module.hot) {
