@@ -1,0 +1,22 @@
+#section2 .main-photo {
+  height: 500px;
+  left: 0px;
+  position: relative;
+  background-image: url('http://birdyo.ga/res/section2.jpg');
+  background-size: cover;
+  background-position: center 80%;
+}
+
+#section2 .mask.black {
+  background-color: rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+#section2 .title {
+  line-height: 500px;
+}
+
+#section2 .title.white {
+  color: white !important;
+  text-shadow: 0px 1px 10px rgb(255,255,255), 0px 1px 30px rgb(98,98,98);
+}
