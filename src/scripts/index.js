@@ -5,6 +5,8 @@ import './section1'
 import './section2'
 import './section3'
 import './section4'
+import './section6'
+import './section7'
 import '../styles/index.css'
 
 if (module.hot) {
