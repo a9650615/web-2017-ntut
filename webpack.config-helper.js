@@ -26,6 +26,10 @@ module.exports = (options) => {
       }),
       new HtmlWebpackPlugin({
         template: './src/index.html'
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'makeline_step.html',
+        template: './src/makeline_step.html'
       })
     ],
     module: {

@@ -7,6 +7,7 @@ import './section3'
 import './section4'
 import './section6'
 import './section7'
+import './makeline_step/makeline_step.js'
 import '../styles/index.css'
 
 if (module.hot) {
