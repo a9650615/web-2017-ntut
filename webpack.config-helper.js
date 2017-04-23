@@ -30,6 +30,14 @@ module.exports = (options) => {
       new HtmlWebpackPlugin({
         filename: 'makeline_step.html',
         template: './src/makeline_step.html'
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'tool.html',
+        template: './src/tool.html'
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'weaving.html',
+        template: './src/weaving.html'
       })
     ],
     module: {
