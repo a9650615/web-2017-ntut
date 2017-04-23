@@ -1,0 +1,7 @@
+#section7 .town-image {
+  background: url('http://birdyo.ga/res/IMG_6873.jpg') no-repeat;
+  background-position:  center;
+  background-size: cover;
+  padding: 100px 10px 500px 10px;
+  box-shadow: -5px -10px 20px rgba(0,0,0,0.1) inset, 0 10px 20px rgba(0,0,0,0.1) inset;
+}
