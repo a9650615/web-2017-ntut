@@ -5,3 +5,7 @@
 #section6 * {
     color: #ffffff;
 }
+
+#section6 a {
+    color: #3fd0e2 !important;
+}
