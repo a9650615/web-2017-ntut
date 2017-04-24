@@ -1,0 +1,31 @@
+#section8 .black {
+  background: rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#section8 .height {
+  padding: 50px 20px;
+}
+
+#section8 .title_block * {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  height: 150px;
+  text-shadow: 0px 1px 60px #000;
+}
+
+#section8 .img_block {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#section8 .img_block .silder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
