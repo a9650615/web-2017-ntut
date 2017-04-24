@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css"
+  />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -23,123 +24,153 @@
 <body>
   <section class="hero is-light is-medium">
     <div class="columns is-mobile">
-      <div class="column is-half has-text-centered is-offset-one-quarter">
+      <div class="column is-half has-text-centered is-offset-one-quarter container title-animation">
         <h1 class="title is-3">
-        現代與傳統文化的衝擊
-      </h1>
+          現代與傳統文化的衝擊
+        </h1>
         <h1 class="title is-3">
-        現代文化的更迭
-      </h1>
+          現代文化的更迭
+        </h1>
         <h1 class="title is-3">
-        傳統文化的延續
-      </h1>
+          傳統文化的延續
+        </h1>
         <h1 class="title is-3">
-        用最燦爛的元素
-      </h1>
+          用最燦爛的元素
+        </h1>
         <h1 class="title is-3">
-        碰撞新時代的序曲
-      </h1>
+          碰撞新時代的序曲
+        </h1>
         <h1 class="title is-3">
-        與交織。他們是。
-      </h1>
+          與交織。他們是。
+        </h1>
         <h1 class="title is-3">
-        -賽德克族。
-      </h1>
+          -賽德克族。
+        </h1>
       </div>
     </div>
   </section>
 
-  <div class="columns select_button">
-    <button data-target="accessories_block" class="button is-medium is-success is-active">accessories</button>
-    <button data-target="hat_block" class="button is-medium is-success is-outlined">hat</button>
-    <button data-target="bag_block" class="button is-medium is-success is-outlined">bag</button>
+  <div id="new" class="columns">
+    <div class="container select_button column is-half is-offset-one-quarter has-text-centered">
+      <button data-target="image-show-accessories" class="button is-medium is-success is-active">accessories</button>
+      <button data-target="image-show-hat" class="button is-medium is-success is-outlined">hat</button>
+      <button data-target="image-show-bag" class="button is-medium is-success is-outlined">bag</button>
+    </div>
   </div>
   <hr/>
 
-  <div class="tile is-ancestor">
-    <div class="tile is-vertical is-8">
+<div class="container">
+  <div id="image-show-accessories" class="tile is-ancestor">
+    <div class="tile is-vertical">
       <div class="tile">
         <div class="tile is-parent is-vertical">
           <article class="tile is-child">
-            yo
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/配件/IMG_5165.JPG">
+            </figure>
           </article>
           <article class="tile is-child">
-            yo
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/配件/myhome_1.jpg">
+            </figure>
           </article>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child">
-            <!-- Any content you want here -->yo
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/配件/S__7364637.jpg">
+            </figure>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child">
-          <!-- Any content you want here -->yo
+          <figure class="image">
+            <img src="http://birdyo.ga/res/分頁圖片/配件/IMAG0552.jpg">
+          </figure>
         </article>
       </div>
     </div>
     <div class="tile is-parent">
       <article class="tile is-child">
-        <!-- Any content you want here -->yo
+        <figure class="image">
+          <img src="http://birdyo.ga/res/分頁圖片/配件/IMG_5167.JPG">
+        </figure>
       </article>
     </div>
   </div>
-
-  <div class="tile is-ancestor">
+  <!-- hat -->
+  <div id="image-show-hat" class="tile is-ancestor">
     <div class="tile is-vertical is-8">
       <div class="tile">
         <div class="tile is-parent is-vertical">
           <article class="tile is-child">
-            <!-- Any content you want here -->
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/帽子/IMG_5181.JPG">
+            </figure>
           </article>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child">
-            <!-- Any content you want here -->
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/帽子/20161108_1159.jpg">
+            </figure>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child">
-          <!-- Any content you want here -->
+          <figure class="image">
+            <img src="http://birdyo.ga/res/分頁圖片/帽子/myhome_33.jpg">
+          </figure>
         </article>
       </div>
     </div>
     <div class="tile is-parent">
       <article class="tile is-child">
-        <!-- Any content you want here -->
+        <figure class="image">
+          <img src="http://birdyo.ga/res/分頁圖片/帽子/IMAG0555.jpg">
+        </figure>
       </article>
     </div>
   </div>
-
-  <div class="tile is-ancestor">
-    <div class="tile is-vertical is-8">
+  <!-- bag -->
+  <div id="image-show-bag" class="tile is-ancestor">
+    <div class="tile is-vertical is-12">
       <div class="tile">
         <div class="tile is-parent is-vertical">
           <article class="tile is-child">
-            <!-- Any content you want here -->
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/包包/myhome_0.jpg">
+            </figure>
           </article>
           <article class="tile is-child">
-            <!-- Any content you want here -->
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/包包/IMAG0434.jpg">
+            </figure>
           </article>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent is-vertical">
           <article class="tile is-child">
-            <!-- Any content you want here -->
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/包包/53462.jpg">
+            </figure>
+          </article>
+          <article class="tile is-child">
+            <figure class="image">
+              <img src="http://birdyo.ga/res/分頁圖片/包包/S__7364629.jpg">
+            </figure>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child">
-          <!-- Any content you want here -->
+          <figure class="image">
+            <img src="http://birdyo.ga/res/分頁圖片/包包/IMG_5174.JPG">
+          </figure>
         </article>
       </div>
     </div>
-    <div class="tile is-parent">
-      <article class="tile is-child">
-        <!-- Any content you want here -->
-      </article>
-    </div>
   </div>
+</div>
 </body>

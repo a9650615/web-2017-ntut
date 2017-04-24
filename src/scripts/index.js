@@ -14,6 +14,7 @@ import './section11'
 import './footer'
 import './makeline_step/makeline_step.js'
 import './weaving/weaving'
+import './new'
 import '../styles/index.css'
 
 if (module.hot) {
