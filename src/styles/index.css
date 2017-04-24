@@ -50,7 +50,7 @@ body.fix {
 }
 
 .door.open.ease {
-    transition: transform 2s ease;
+    transition: transform 1s ease;
     transform: scale(10);
 }
 

@@ -10,6 +10,9 @@ $('.cut').on('click', (e) => {
   setTimeout(() => {
     $('footer').addClass('open-gate')
     $('footer .on-top').addClass('open-gate')
+    $('html,body').animate({
+      scrollTop: $('.new-gate').offset().top},
+    'slow')
     goToHell()
   }, 900)
 })
@@ -22,7 +25,7 @@ let goToHell = () => {
       $('#fuck-text-2').fadeIn(200)
       seeYouNotAgain()
     }, 2000)
-  }, 500)
+  }, 1000)
 }
 
 let seeYouNotAgain = () => {
@@ -33,8 +36,10 @@ let seeYouNotAgain = () => {
       $('.door').addClass('ease')
       setTimeout(() => {
         $('.door').removeClass('ease').addClass('open').addClass('ease')
-        window.location.href = 'https://aqua.birdyo.ga'
+        setTimeout(() => {
+          window.location.href = 'https://aqua.birdyo.ga'
+        }, 100)
       }, 400)
     }, 1000)
-  }, 1000)
+  }, 1500)
 }
