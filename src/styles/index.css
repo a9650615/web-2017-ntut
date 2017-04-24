@@ -10,6 +10,50 @@ body {
   height: auto;
 }
 
+body.fix {
+    height: 100vh;
+}
+
+#fullpage {
+  transition: all 1.4s ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+#fullpage.get-out {
+  transform: scale(0) rotate(720deg);
+  height: 100vh;
+}
+
+.door {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    transition: transform .6s ease;
+}
+
+.door.close {
+    background: url('http://birdyo.ga/res/door-open.png');
+}
+
+.door.close.ease {
+    transform: scale(2);
+}
+
+.door.open {
+    transition: none;
+    transform: scale(0.1);
+    background: url('http://birdyo.ga/res/door-open-2.png');
+}
+
+.door.open.ease {
+    transition: transform 2s ease;
+    transform: scale(10);
+}
+
 .section {
     position: relative;
     padding: 1rem 0rem;
