@@ -12,6 +12,7 @@ import './section8'
 import './section9'
 import './section11'
 import './makeline_step/makeline_step.js'
+import './weaving/weaving'
 import '../styles/index.css'
 
 if (module.hot) {
