@@ -38,6 +38,10 @@ module.exports = (options) => {
       new HtmlWebpackPlugin({
         filename: 'weaving.html',
         template: './src/weaving.html'
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'new.html',
+        template: './src/new.html'
       })
     ],
     module: {
