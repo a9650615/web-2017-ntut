@@ -1,0 +1,46 @@
+footer {
+  position: relative;
+}
+
+footer .on-top {
+  background-color: #bc4b69 !important;
+  color: #fff;
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 2;
+}
+
+footer.open-gate {
+  height: 450px;
+}
+
+.cut {
+  width: 32px;
+  height: 32px;
+  background: url('http://birdyo.ga/res/cut.png');
+  background-size: cover;
+  position: absolute;
+  top: -16px;
+  right: 100%;
+  cursor: pointer;
+  transition: right 1s ease-in-out;
+}
+
+.cut.clicked {
+  right:  -10%;
+}
+
+.new-gate {
+  position: relative;
+  margin: auto;
+  top: 0px;
+  height: 0px;
+  z-index: 1;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+
+footer.open-gate > .new-gate{
+  position: relative;
+  height: 300px;
+}

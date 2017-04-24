@@ -1,7 +1,13 @@
+html {
+    overflow-y: auto;
+}
+
 body {
   position: relative;
   font-family: "微軟正黑體";
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
 }
 
 .section {
@@ -34,7 +40,7 @@ a {
 }
 
 .container {
-    padding: 70px 0 0 0 ;
+    padding: 70px 0 ;
 }
 
 .hidden {
