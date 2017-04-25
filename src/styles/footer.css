@@ -41,6 +41,33 @@ footer.open-gate > .new-gate{
   height: 100%;
 }
 
+footer.qwer .title{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  color: rgb(255,255,255);
+}
+
+@keyframes slidein {
+  from {
+    padding-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    padding-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    padding-left: 0%;
+    width: 100%;
+  }
+}
+
+
 #surprise-mother-fucker {
   position: fixed;
   width: 100%;

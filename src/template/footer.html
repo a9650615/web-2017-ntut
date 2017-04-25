@@ -23,8 +23,26 @@
 <div class="on-top">
   <div class="container">
     <div class="cut"></div>
-    <div>
-      2017
+    <div class="title is-4">
+      2017各種彩蛋等著你來發現
     </div>
   </div>
 </div>
+
+<script>
+  (function() {
+    const ASDF = () => {
+
+      let h = document.documentElement.clientHeight;
+      let f = $("footer")[0];
+      let fb = f.getBoundingClientRect();
+
+      if (fb.top > 0 && fb.top < h) {
+        f.classList.add('qwer');
+      } else {
+        f.classList.remove('qwer');
+      }
+    };
+    $(window).resize(ASDF).scroll(ASDF);
+  })();
+</script>
