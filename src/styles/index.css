@@ -111,3 +111,8 @@ a {
 .section > .container {
     padding: 50px 10px;
 }
+
+.bigger-text > * {
+    font-size: 2rem;
+    padding: 5px 0;
+}
