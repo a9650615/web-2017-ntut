@@ -27,7 +27,9 @@
 #section8 .img_block .silder {
   position: absolute;
   left: 0;
-  top: -20%;
+  bottom: 0%;
   height: auto;
-  width: 100%;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
 }

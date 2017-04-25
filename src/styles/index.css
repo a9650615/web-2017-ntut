@@ -45,13 +45,13 @@ body.fix {
 
 .door.open {
     transition: none;
-    transform: scale(0.1);
+    transform: scale(1);
     background: url('http://birdyo.ga/res/door-open-2.png');
 }
 
 .door.open.ease {
-    transition: transform 1s ease;
-    transform: scale(10);
+    transition: transform 1.5s ease;
+    transform: scale(5);
 }
 
 .section {

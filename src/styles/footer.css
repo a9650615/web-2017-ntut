@@ -10,6 +10,10 @@ footer .on-top {
   z-index: 2;
 }
 
+footer .on-top .title {
+  color: #fff;
+}
+
 .cut {
   width: 32px;
   height: 32px;
@@ -41,6 +45,7 @@ footer.open-gate > .new-gate{
   height: 100%;
 }
 
+/*
 footer.qwer .title{
   animation-duration: 3s;
   animation-name: slidein;
@@ -65,8 +70,7 @@ footer.qwer .title{
     padding-left: 0%;
     width: 100%;
   }
-}
-
+}*/
 
 #surprise-mother-fucker {
   position: fixed;

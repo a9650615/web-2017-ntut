@@ -35,10 +35,11 @@ let seeYouNotAgain = () => {
     setTimeout(() => {
       $('.door').addClass('ease')
       setTimeout(() => {
-        $('.door').removeClass('ease').addClass('open').addClass('ease')
+        $('.door').removeClass('ease').addClass('open')
         setTimeout(() => {
+          $('.door').addClass('ease')
           window.location.href = 'https://aqua.birdyo.ga'
-        }, 100)
+        }, 200)
       }, 400)
     }, 1000)
   }, 1500)
