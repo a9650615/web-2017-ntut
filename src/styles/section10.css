@@ -7,6 +7,8 @@
 #section10 .top_left_block{
   animation: 3s func;
   transition: 1s else;
+  position: relative;
+  z-index: 1;
 }
 
 #section10 .top_left_block:hover{
