@@ -24,6 +24,11 @@ body.fix {
   height: 100vh;
 }
 
+.con {
+    margin: auto;
+    display: block;    
+}
+
 .door {
     position: absolute;
     left: 0;
