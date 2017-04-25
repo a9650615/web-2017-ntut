@@ -1,16 +1,8 @@
-@-webkit-keyframes func {
- 0%{transform:'scale(1)';}
- 30%{transform:'scale(3)';}
-100%{transform:'scale(1)';}
+#section10 .tile.is-child {
+  transition: .5s transform ease;
 }
 
-#section10 .top_left_block{
-  animation: 3s func;
-  transition: 1s else;
-  position: relative;
-  z-index: 1;
-}
-
-#section10 .top_left_block:hover{
-  transform: scale(1.5);
+#section10 .tile.is-child:hover{
+  transform: scale(1.2);
+  z-index: 10;
 }
